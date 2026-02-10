@@ -1116,3 +1116,5 @@
 
 /* Login to OSM button text */
 "login_osm_browser" = "Login using Browser";
+
+"login_osm_description" = "OpenStreetMap.org (OSM) is a community project to build a free and open map. It\'s the main source of map data in Organic Maps and works similar to Wikipedia. You can add or edit places and they become available to millions of users all over the World.\n\n Join the community and help to make a better map for everyone!";
