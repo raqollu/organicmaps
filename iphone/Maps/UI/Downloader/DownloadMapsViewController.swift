@@ -418,7 +418,9 @@ extension DownloadMapsViewController: StorageObserver {
       return
     }
     dataSource.reload {
-      reloadData()
+      if mode == .downloaded {
+        reloadData()
+      }
       noMapsContainer.isHidden = !dataSource.isEmpty || Storage.shared().downloadInProgress()
     }
     if countryId == dataSource.getParentCountryId() {
